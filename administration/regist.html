@@ -1,0 +1,87 @@
+<link rel="icon" type="image/jpg" href="../picprj/iconn.png" />
+<style type="text/css">
+body { 
+	overflow-x:hidden;
+	background-image: url(photos/background.jpg);
+}
+.ed{
+border-style:solid;
+border-width:thin;
+border-color:#e67e22;
+padding:5px;
+margin-bottom: 4px;
+line-height: 23px;
+font-size: 17px
+}
+#button1{
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+border-style:solid;
+border-width:thin;
+border-color:#e67e22;
+padding:5px;
+margin-left: 250px;
+cursor: pointer;
+background-color:#e67e22;
+height: 34px;
+}
+
+.p{
+
+font-style:bold;
+font-size: 20px;
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+</style><div style="margin-left: 250px;margin-top: 70px;background-color:#9d9d9d;width:400px">
+<form action="plzhelpme.php" method="post" enctype="multipart/form-data" name="register">
+ <table width="30%" border="0"cellspacing="1"class="p">
+<tr>
+<td>
+    first name<br>
+	<input type="text"name="first"placeholder="Enter your first name"required class="ed"></td>
+</tr>
+<tr>
+<td>last name<br>
+	<input type="text"name="last"placeholder="Enter your last name"required class="ed"></td>
+</tr>
+<tr>
+<td>
+phone number<br>
+	<input type="mobile"name="tel"placeholder="Enter your mobile number"required class="ed"></td>
+</tr>
+<tr>
+<td>
+department<br>
+	<input type="text"name="depart"placeholder="department"required class="ed"></td>
+</tr>
+<tr>
+<td>
+post<br>
+	<input type="text"name="title"placeholder="post or your title"required class="ed"></td>
+</tr>
+<tr>
+<td>
+	district email<br>
+	<input type="email"name="demail"placeholder="Destrict Email"required class="ed"></td>
+</tr>
+<tr>
+<td>
+	password<br>
+	<input type="password"name="password"placeholder="create your password"required class="ed"></td>
+</tr>
+<tr>
+<td><input type="file" name="image"class="ed" required />
+</td>
+</tr>
+<tr>
+<td><button type="submit" name="signup"id="button1">Sign Me Up</button></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+ </form></div>

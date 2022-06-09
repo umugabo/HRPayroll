@@ -1,0 +1,96 @@
+<style type="text/css">
+body { 
+	background: #EEE; 
+	overflow-x:hidden;
+}
+.ed{
+border-style:solid;
+border-width:thin;
+border-color:#e67e22;
+padding:5px;
+margin-bottom: 4px;
+line-height: 23px;
+font-size: 17px
+}
+#button1{
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+border-style:solid;
+border-width:thin;
+border-color:#e67e22;
+padding:5px;
+margin-left: 250px;
+cursor: pointer;
+background-color:#e67e22;
+height: 34px;
+}
+
+.p{
+
+font-style:bold;
+font-size: 20px;
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+</style>
+<title>registration</title>
+ <?php
+ini_set('mysql.connect_timeout', 30);
+ini_set('defoult_socket_timeout', 30);
+ ?>
+<form action="check_register.php" method="post" enctype="multipart/form-data" name="register">
+ <table width="30%" border="0"cellspacing="1"class="p">
+<tr>
+<td>
+    first name<br>
+	<input type="text" name="first" placeholder="first name"class="ed" required /></td>
+</tr>
+<tr>
+<td>last name<br><input type="text" name="last" placeholder="last Name"class="ed" required /></td>
+</tr>
+<tr>
+<td>
+phone number<br>
+	<input type="phone" name="phone" placeholder="phone number"class="ed"value="07" required /></td>
+</tr>
+<tr>
+<td>
+sector<br>
+	<input type="text" name="sector" placeholder="sector"class="ed" required /></td>
+</tr>
+<tr>
+<td>
+department<br>
+	<input type="text" name="department" placeholder="Department "class="ed" required /></td>
+</tr>
+<tr>
+<td>
+post<br>
+	<input type="text" name="post" placeholder="your post"class="ed" required /></td>
+</tr>
+<tr>
+<td>
+email<br>
+	<input type="email" name="email" placeholder="you@dmail.com"class="ed" required /></td>
+</tr>
+
+
+<tr>
+<td>
+	password<br>
+	<input type="password" name="password" placeholder="enter your password"class="ed" required /></td>
+</tr>
+<tr>
+<td><input type="file" name="image"class="ed" required />
+</td>
+</tr>
+<tr>
+<td><button type="submit" name="signup"id="button1">Sign Me Up</button></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+ </form>

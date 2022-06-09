@@ -1,0 +1,124 @@
+html, body {border: 0; margin: 0; padding: 0;}
+body { 
+
+line-height: 130%;
+  	width: 100%;
+  	min-width: 970px;
+	top:0px ;
+	margin-top:0;
+	background:#070E0E;
+}
+#body {
+
+  	width: 100%;
+  	min-width: 970px;
+	top:0px ;
+	margin-top:0;
+	background:#ccccaa;
+}
+
+#container {
+	width:1200px;
+	height:600px;
+margin:0 auto;
+background:#070E0E;
+ border:5px solid rgba(0,0,0,0);
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+ border-radius:5px;
+-webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+-moz-box-shadow:0 0 10px rgba(0,0,0,0.4);
+ box-shadow:0 0 10px rgba(0,0,0,0.4);
+ margin-top:2%;
+ overflow:auto;
+}
+
+
+#login
+{
+width:220px;
+height:360px;
+color:#FFFFFF;
+position:absolute;
+background: #BEE0DD no-repeat;
+-moz-border-radius: 0px 0px 20px 20px;
+	-webkit-border-radius:0px 0px 20px 20px;
+	 border-radius:0px 0px 20px 20px;
+top:240px;
+left:220px;
+ font-size: 1.3em;
+}
+
+#log
+{
+width:590px;
+height:233px;
+color:#FFFFFF;
+position:absolute;
+background: #838383 no-repeat;
+-moz-border-radius: 0px 0px 20px 20px;
+	-webkit-border-radius:0px 0px 20px 20px;
+	 border-radius:10px 10px 20px 20px;
+top:250px;
+left:450px;
+ font-size: 1.2em;
+}
+#hist
+{
+width:1190px;
+height:400px;
+color:#FFFFFF;
+position:absolute;
+background: #8F8F8F no-repeat;
+-moz-border-radius: 0px 0px 20px 20px;
+	-webkit-border-radius:0px 0px 20px 20px;
+	 border-radius:10px 10px 20px 20px;
+top:240px;
+left:85px;
+font-family: "Trebuchet MS",Tahoma, Arial, serif;
+ font-size: 1.4em;
+}
+#foot {
+	width: 1200px;
+	height:25px;
+	margin:0;
+		-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius:0px 0px 10px 10px;
+	 border-radius:0px 0px 10px 10px;
+	 position: absolute;
+	 z-index: 1;
+	 background-color:#000033;
+	color: #FFFFFF;
+	 font-family: "Trebuchet MS",Tahoma, Arial, serif;
+	font-size: 1.2em;
+	 top:625px;
+left:155px;
+}
+
+ #time {
+	width: 16%;
+	margin:0;
+	height: 25px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius:0px 0px 5px 5px;
+	 border-radius:0px 0px 5px 5px;
+	 position: absolute;
+	 z-index: 1;
+	 background-color:;
+	color: white;
+	 font-family: "Trebuchet MS",Tahoma, Arial, sans-serif;
+	 top:210px;
+left:940px;
+overflow:auto;
+ font-size: 1.2em;
+}
+#table
+{
+    border:0;
+    background:#f5f9f4;
+    font-family:verdana,sans-serif;
+    font-size:1.1em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+	}

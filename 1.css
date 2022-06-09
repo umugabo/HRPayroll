@@ -1,0 +1,124 @@
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #FFF;
+}	
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #FFF;
+}
+
+h3 a {
+	color: ##E64A19;
+}
+
+a {
+	color: #FFF;
+}
+
+h1 {
+	margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+	font-family: 'Bree Serif', 'serif';
+	}
+
+#container {
+	margin: 0 auto;
+	position:fixed;
+}
+
+p {
+	text-align: center;
+}
+/* color to be changed on background */
+nav {
+	margin: 50px 0;
+	background-color:#FFA500;
+	margin-top: 0px;
+	
+}
+.banner img{
+
+
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	font-style: bold;
+	}
+	/* COLOR TO BE CHANGED onchild sub menu */
+nav ul li {
+	display:inline-block;
+	background-color:#0000FF;
+
+	}
+
+nav a {
+	
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:23px;
+	font-style: bold;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color:white; 
+	color:#003300;
+	font-style: bold;
+}
+
+nav a:active { 
+	background-color:#FFFFFF; 
+	color: black;
+	font-size:20px;
+	font-style: bold;
+}
+
+
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position:absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+
+li > a:only-child:after { content: ''; }

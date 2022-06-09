@@ -1,0 +1,42 @@
+div
+{
+	border-radius: 7px;
+}
+img
+{
+	width: 90px;
+	height: 94px;
+}
+table{margin-left: 30px;
+margin-bottom: 70px;}
+th{
+	height: 50px;
+}
+td
+{
+	text-align: center;
+
+	height: auto;
+}
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #2565a7;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}

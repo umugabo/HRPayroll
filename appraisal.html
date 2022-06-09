@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap4/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="thumbnail" style="background:lightslategray;">
+        <h1 class="text-center" style="color: white;">Employee Performance Appraisal</h1>
+    </div>
+    <div class="container">
+    <p>Performance evaluation should be completed by the employee, the employee's manager, 
+        the employee's direct reports, and the employee's peers.</p>
+        <hr>
+        <br>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <label for="">Employee Name:</label>
+                <input type="text"><br>
+                <label for="">Supervisor Name:</label>
+                <input type="text">
+              </div>
+              <div class="col-sm">
+                <label for="">Position:</label>
+                <input type="text"><br>
+                <label for="">Department:</label>
+                <input type="text">
+              </div>
+            </div>
+          </div>
+
+        <br>
+        <br>
+        <h4>Evaluation Date</h4>
+        <input type="date"><br>
+        <br>
+        <h6>Rating scale:</h6>
+        <br>
+        <p>5. Excellent</p>
+        <p>4. Outstanding</p>
+        <p>3. Satisfactory</p>
+        <p>2. Needs improvement</p>
+        <p>1. Unacceptable</p>
+
+          <h3>SECTION 1: OBJECTIVES</h3>
+
+
+        <p>Please indicate the degree to which you agree or disagree with the following statements about your manager.</p>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th></th>
+                <th scope="col">Excellent (5)</th>
+                <th scope="col">Outstanding (4)</th>
+                <th scope="col">Satisfactory (3)</th>
+                <th scope="col">Needs improvemen (2)</th>
+                <th scope="col">Unacceptable (1)</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Open to new ideas and suggestions</td>
+                    <td class="text-center"><input name="a" type="radio"></td>
+                    <td class="text-center"><input name="a" type="radio"></td>
+                    <td class="text-center"><input name="a" type="radio"></td>
+                    <td class="text-center"><input name="a" type="radio"></td>
+                    <td class="text-center"><input name="a" type="radio"></td>
+                </tr>
+                <tr>
+                    <td>Comment</td>
+                    <td colspan="5"><textarea name="" id="" cols="100" rows="3"></textarea></td>
+            </tbody>
+        </table>
+        <center>
+        <button class="btn btn-success">Prev</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-success">Next</button>
+    </center>
+
+        <!-- <h5>Please provide any additional overall comments</h5>
+        <textarea name="" id="" cols="100" rows="3"></textarea>
+        <br>
+        <br>
+        <label for=""> <b>Overall Rating:</b></label><br> -->
+        
+    </div>
+    
+</body>
+</html>
