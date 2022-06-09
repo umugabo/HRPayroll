@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 4.8.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 01, 2020 at 06:10 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.2.12
+-- Generation Time: Jun 09, 2022 at 02:48 PM
+-- Server version: 10.1.31-MariaDB
+-- PHP Version: 7.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -45,15 +45,15 @@ CREATE TABLE `benefits` (
 --
 
 INSERT INTO `benefits` (`benefit_id`, `basic_salary`, `tran_allowance`, `house_allowance`, `other_cash_allowance`, `transport`, `house`, `loan`, `emp_id`) VALUES
-(1, '643', 242, 565, 4546, 1, 1, 0, 0),
+(1, '643', 242, 565, 40546, 1, 1, 0, 0),
 (2, '643', 242, 565, 4546, 1, 1, 0, 0),
 (3, '643', 242, 565, 4546, 1, 1, 1, 0),
 (4, '643', 242, 565, 4546, 1, 1, 1, 5),
 (5, '643', 242, 565, 4546, 0, 0, 0, 5),
 (6, '643', 242, 565, 4546, 0, 1, 1, 5),
 (7, '643', 242, 565, 4546, 0, 0, 0, 5),
-(8, NULL, NULL, NULL, NULL, 0, 0, 0, 0),
-(9, '643', 242, 565, 4546, 1, 0, 0, 9);
+(8, '13', 34, 12, 321, 1, 1, 1, 2),
+(9, '7', 1, 2, 50000, 0, 0, 0, 9);
 
 -- --------------------------------------------------------
 
