@@ -57,19 +57,19 @@ UNKNOWN {
             <li><a href="salary.php">Salary</a>
 			<ul><li><a href="hrsearch.php">Structure</a></li>
 			<li><a href="print_salary.php">Payroll</a></li>
-			<li><a href="hrregister.php">Payslip</a></li>
+			<li><a href="hrpayslip.php">Payslip</a></li>
 			<li><a href="search.php">Search</a></li>
 			</ul></li>
              
                         <li><a href="advance.php">Advance</a></li>
 						 <li><a href="salary.php">Monitor</a>
-			<ul><li><a href="hrregister.php">Attendance</a></li>
-			<li><a href="hrregister.php">Disciplinary</a></li>
-			<li><a href="hrregister.php">Performance</a></li>
-			<li><a href="hrregister.php">Development</a></li>
-			<li><a href="hrregister.php">Appraisal</a></li>
-			<li><a href="hrregister.php">Leave</a>
-			<ul><li><a href="hrregister.php">View Leave</a></li>
+			<ul><li><a href="hrattendance.php">Attendance</a></li>
+			<li><a href="hrdisciplinary.php">Disciplinary</a></li>
+			<li><a href="hrperformance.php">Performance</a></li>
+			<li><a href="hrdevelopment.php">Development</a></li>
+			<li><a href="hrappraisal.php">Appraisal</a></li>
+			<li><a>Leave</a>
+			<ul><li><a href="hrviewleave.php">View Leave</a></li>
 			</ul>
    
 			</ul></li>
