@@ -1,7 +1,8 @@
 <?php
 		
 		date_default_timezone_set('Asia/Kolkata');
-		require_once 'PHPExcel/Classes/PHPExcel.php';
+		// require_once 'PHPExcel/Classes/PHPExcel.php';
+		require_once(BASE_PATH . '/AddOns/PHPExcel/Classes/PHPExcel.php');
 		
 		$objectPHPExcel = new PHPExcel();
 		
@@ -18,7 +19,8 @@
 <?php
 		
 		date_default_timezone_set('Asia/Kolkata');
-		require_once 'PHPExcel/Classes/PHPExcel.php';
+		// require_once 'PHPExcel/Classes/PHPExcel.php';
+		require_once(BASE_PATH . '/AddOns/PHPExcel/Classes/PHPExcel.php');
 		
 		$filename = 'userReport'; //your file name
 		$objPHPExcel = new PHPExcel();
@@ -72,7 +74,7 @@
 
 
 
-$result = mysqli_query($con, 'SELECT * FROM myTable');
+$result = mysqli_query($con, 'SELECT * FROM employee');
 while ($property = mysqli_fetch_field($result)) {
     echo $property->name;
 }
