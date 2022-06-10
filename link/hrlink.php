@@ -42,16 +42,14 @@ UNKNOWN {
  <title>home</title>
 
  <nav>
-        <ul>
-            
+        <ul class="nav navbar-nav navbar-right menul">
+        <li class="active"><a href="hr.php">HOME</a></li>
            <li><a href="#">Employee</a>
-<ul><li><a href="hrregister.php">New employee</a></li>
-    <li><a href="search.php">Search</a></li>
-	
-
-</ul>
-           </li>
-               
+                <ul>
+                  <li><a href="hrregister.php">New employee</a></li>
+        <li><a href="search.php">Search</a></li>
+                </ul>
+           </li>               
             </li>
 			 
             <li><a href="salary.php">Salary</a>

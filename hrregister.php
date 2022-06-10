@@ -495,12 +495,13 @@ function ds_onclick(d, m, y) {
 <div style="border:1px solid green; width:1304px;height:auto;margin-left:20px;margin-top:-10px;">
 <div style="border:0px solid black;color:black width:1300px;height:100px;margin:0px;" class="banner">
 
-<div style="border:0px solid blue; width:1304px;height:60px;margin-top:77px;position:fixed;padding:0px">
+<div style="border:0px solid blue; width:1304px;height:60px;margin-top:77px;position:60px;padding:0px">
  <nav><center>
 <body background="#BCBCBC" id="body"><TABLE width='1198' bgcolor='#EAEAEA' align="center">
 <TR>
 	<TD align='center'></TD>
 </TR>
+<TD align='center'><?php include'link/hrlink.php';?></TD>
 <TR>
 	<TD ><TABLE width='1195' border='0'>
 	<TR>
