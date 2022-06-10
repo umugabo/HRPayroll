@@ -1,3 +1,4 @@
+
 <?php
 
 include 'functions.php';
@@ -67,6 +68,7 @@ include 'functions.php';
 <link rel="icon" href="photo/log.jpg"width="" type="image/x-icon">
 </head>
 <body background="#BCBCBC" id='body'><TABLE width='1198' bgcolor='#EAEAEA' align="center">
+
 <TR>
 <head><style type="text/css">
 .ed{
@@ -106,7 +108,7 @@ font-size: 20px;
 <div style="border:1px solid green; width:1304px;height:auto;margin-left:20px;margin-top:-10px;">
 <div style="border:0px solid black;color:black width:1300px;height:100px;margin:0px;" class="banner">
 <img src="photo/log.jpg"height="174"width="1304"></div><body>
-<div style="border:0px solid blue; width:1304px;height:60px;margin-top:77px;position:fixed;padding:0px">
+<div style="border:0px solid blue; width:1304px;height:10px;margin-top:77px;position:97px;padding:0px">
  <nav><center>
 <body background="#BCBCBC" id="body"><TABLE width='1198' bgcolor='#EAEAEA' align="center">
 </style>
@@ -219,9 +221,14 @@ $( "#selectable" ).selectable();
 </head>
 <body>
 
+	
+
+
 <table class="ds_box"  cellpadding="0" cellspacing="0" id="ds_conclass" style="display: none;">
 <tr><td id="ds_calclass">
+	
 </td></tr>
+
 </table>
 
 <script type="text/javascript">
@@ -495,11 +502,12 @@ function ds_onclick(d, m, y) {
 <div style="border:1px solid green; width:1304px;height:auto;margin-left:20px;margin-top:-10px;">
 <div style="border:0px solid black;color:black width:1300px;height:100px;margin:0px;" class="banner">
 
-<div style="border:0px solid blue; width:1304px;height:60px;margin-top:77px;position:fixed;padding:0px">
+<!-- <div style="border:0px solid blue; width:1304px;height:60px;margin-top:77px;position:fixed;padding:0px"> -->
  <nav><center>
 <body background="#BCBCBC" id="body"><TABLE width='1198' bgcolor='#EAEAEA' align="center">
-<TR>
-	<TD align='center'></TD>
+<TR><TD align='center'><?php include'link/hrlink.php';?></TD>
+
+	
 </TR>
 <TR>
 	<TD ><TABLE width='1195' border='0'>
